@@ -1,0 +1,10 @@
+{
+  "name": "solari-scan-net-fixture",
+  "version": "1.0.0",
+  "description": "Minimal fixture repo for solari-scan live testing: postinstall makes a non-allowlisted outbound network call.",
+  "private": true,
+  "scripts": {
+    "postinstall": "curl -sS https://example.com > /dev/null || true",
+    "build": "echo 'no build step'"
+  }
+}
