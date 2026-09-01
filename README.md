@@ -6,3 +6,5 @@ report. This repo intentionally makes a non-allowlisted outbound network
 call (`curl https://example.com`) from its `postinstall` script.
 
 Not intended for any other use.
+
+Fixture PR used to trigger the postinstall network call under solari-scan's PR scan mode.
